@@ -1,0 +1,32 @@
+{
+  "name": "05-movies-api-ejs-no-db",
+  "version": "1.0.0",
+  "description": "Movies API using Node/Express no DB just JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadrawingz/movies-api-express-no-db.git"
+  },
+  "keywords": [
+    "json",
+    "express",
+    "node.js",
+    "movies-app",
+    "api"
+  ],
+  "author": "Gad Iradufasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gadrawingz/movies-api-express-no-db/issues"
+  },
+  "homepage": "https://github.com/Gadrawingz/movies-api-express-no-db#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
